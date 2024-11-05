@@ -1,0 +1,198 @@
+export const doctors = [
+  {
+    id_doctor: 1,
+    name: "Dr. Armando Matheus",
+    specialty: "Ginecologista e Obstetrícia",
+    icon: "M",
+  },
+  {
+    id_doctor: 2,
+    name: "Dra. Julia Faria",
+    specialty: "Dermatologia",
+    icon: "F",
+  },
+  {
+    id_doctor: 3,
+    name: "Dr. Rafael Lima",
+    specialty: "Pediatria",
+    icon: "M",
+  },
+  {
+    id_doctor: 4,
+    name: "Dr. Caio Oliveira",
+    specialty: "Cardiologia",
+    icon: "M",
+  },
+  {
+    id_doctor: 5,
+    name: "Dra. Letícia Moreira",
+    specialty: "Neurologia",
+    icon: "F",
+  },
+  {
+    id_doctor: 6,
+    name: "Dra. Bianca Santos",
+    specialty: "Oftalmologia",
+    icon: "F",
+  },
+  {
+    id_doctor: 7,
+    name: "Dr. Thiago Azevedo",
+    specialty: "Ortopedia",
+    icon: "M",
+  },
+  {
+    id_doctor: 8,
+    name: "Dra. Paula Gomes",
+    specialty: "Endocrinologia",
+    icon: "F",
+  },
+  {
+    id_doctor: 9,
+    name: "Dr. Pedro Silveira",
+    specialty: "Psiquiatria",
+    icon: "M",
+  },
+  {
+    id_doctor: 10,
+    name: "Dra. Camila Rocha",
+    specialty: "Gastroenterologia",
+    icon: "F",
+  },
+];
+
+export const appointments = [
+  {
+    id_appointment: 1,
+    service: "Consulta",
+    doctor: "Dra. Nise da Silveira",
+    specialty: "Cirurgia Plástica",
+    booking_date: "2021-10-25",
+    booking_hour: "08:30",
+  },
+  {
+    id_appointment: 2,
+    service: "Consulta",
+    doctor: "Dr. Armando Matheus",
+    specialty: "Ginecologia",
+    booking_date: "2021-10-26",
+    booking_hour: "09:00",
+  },
+  {
+    id_appointment: 3,
+    service: "Consulta",
+    doctor: "Dra. Julia Faria",
+    specialty: "Dermatologia",
+    booking_date: "2021-10-27",
+    booking_hour: "10:15",
+  },
+  {
+    id_appointment: 4,
+    service: "Consulta",
+    doctor: "Dr. Rafael Lima",
+    specialty: "Pediatria",
+    booking_date: "2021-10-27",
+    booking_hour: "11:00",
+  },
+  {
+    id_appointment: 5,
+    service: "Exame",
+    doctor: "Dr. Caio Oliveira",
+    specialty: "Cardiologia",
+    booking_date: "2021-10-28",
+    booking_hour: "08:45",
+  },
+  {
+    id_appointment: 6,
+    service: "Consulta",
+    doctor: "Dra. Letícia Moreira",
+    specialty: "Neurologia",
+    booking_date: "2021-10-29",
+    booking_hour: "09:30",
+  },
+  {
+    id_appointment: 7,
+    service: "Consulta",
+    doctor: "Dra. Bianca Santos",
+    specialty: "Oftalmologia",
+    booking_date: "2021-10-30",
+    booking_hour: "14:00",
+  },
+  {
+    id_appointment: 8,
+    service: "Exame",
+    doctor: "Dr. Thiago Azevedo",
+    specialty: "Ortopedia",
+    booking_date: "2021-11-01",
+    booking_hour: "10:00",
+  },
+  {
+    id_appointment: 9,
+    service: "Consulta",
+    doctor: "Dra. Paula Gomes",
+    specialty: "Endocrinologia",
+    booking_date: "2021-11-02",
+    booking_hour: "13:30",
+  },
+  {
+    id_appointment: 10,
+    service: "Consulta",
+    doctor: "Dr. Pedro Silveira",
+    specialty: "Psiquiatria",
+    booking_date: "2021-11-03",
+    booking_hour: "15:45",
+  },
+];
+
+export const doctors_services = [
+  {
+    id_service: 1,
+    description: "Consulta Médica",
+    price: 500,
+  },
+  {
+    id_service: 2,
+    description: "Exame de Sangue",
+    price: 150,
+  },
+  {
+    id_service: 3,
+    description: "Ultrassonografia",
+    price: 300,
+  },
+  {
+    id_service: 4,
+    description: "Raio-X",
+    price: 250,
+  },
+  {
+    id_service: 5,
+    description: "Eletrocardiograma",
+    price: 200,
+  },
+  {
+    id_service: 6,
+    description: "Consulta Dermatológica",
+    price: 450,
+  },
+  {
+    id_service: 7,
+    description: "Avaliação Nutricional",
+    price: 400,
+  },
+  {
+    id_service: 8,
+    description: "Consulta Oftalmológica",
+    price: 550,
+  },
+  {
+    id_service: 9,
+    description: "Fisioterapia",
+    price: 100,
+  },
+  {
+    id_service: 10,
+    description: "Consulta Neurológica",
+    price: 600,
+  },
+];
